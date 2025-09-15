@@ -16,7 +16,6 @@ def main():
         pygame.display.flip()
         clock.tick(60)
         dt = (clock.tick(60) / 1000)
-        print(dt)
 
 if __name__ == "__main__":
     main()
